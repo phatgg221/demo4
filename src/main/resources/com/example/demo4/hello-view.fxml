@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.HelloController">
+   <children>
+      <Text fx:id="text1" layoutX="162.0" layoutY="121.0" onMouseClicked="#onHelloButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" text="Java is fun">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="332.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java is poweful">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
